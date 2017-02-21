@@ -24,7 +24,7 @@ gulp.task('scripts', function() {
 
 // Watch Files For Changes
 gulp.task('watch', function() {
-    gulp.watch('js/source/*.js', ['lint', 'scripts']);
+    gulp.watch('js/*.js', ['scripts']);
     // gulp.watch('scss/*.scss', ['sass']);
 });
 

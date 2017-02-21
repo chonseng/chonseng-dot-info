@@ -25,12 +25,13 @@ a {
 	-webkit-transition: background ease .3s, color ease .3s;
 	-o-transition: background ease .3s, color ease .3s;
 	transition: background ease .3s, color ease .3s;
+	border-radius: 3px;
 }
 
 a:hover {
 	background: #DF4661;
 	color: white;
-	border-radius: 3px;	
+	/*border-radius: 3px;	*/
 }
 
 
@@ -137,7 +138,15 @@ a:hover {
 .facebook:hover {
 	color: white;
 	background: #3C599B;
-	border-radius: 3px;
+}
+
+.github {
+	color: #24292E;
+}
+
+.github:hover {
+	color: white;
+	background: #24292E;
 }
 
 .tumblr {
@@ -147,7 +156,6 @@ a:hover {
 .tumblr:hover {
 	color: white;
 	background: #3E5A70;
-	border-radius: 3px;
 }
 
 .twitter {
@@ -157,7 +165,6 @@ a:hover {
 .twitter:hover {
 	color: white;
 	background: #1AB2E8;
-	border-radius: 3px;
 }
 
 .wechat {
@@ -167,16 +174,14 @@ a:hover {
 .wechat:hover {
 	color: white;
 	background: #76A70A;
-	border-radius: 3px;
 }
 
 .instagram {
-	color: #6B4F44;
+	color: #000;
 }
 .instagram:hover {
 	color: white;
-	background: #6B4F44;
-	border-radius: 3px;
+	background: #000;
 }
 
 .pinterest {
@@ -185,8 +190,16 @@ a:hover {
 .pinterest:hover {
 	color: white;
 	background: #CC2028;
-	border-radius: 3px;
 }
+
+.telegram {
+	color: #0088cc;
+}
+.telegram:hover {
+	color: white;
+	background: #0088cc;
+}
+
 
 #wechat_page {
 	display: none;
@@ -336,11 +349,14 @@ h2 {
 }
 
 h3 {
-	font-size: 1.5625rem;
-	padding-top: 60px;
-	padding-bottom: 40px;
-	margin-bottom: 40px;
+	font-size: 1.2rem;
+	padding-top: 20px;
+	padding-bottom: 10px;
 	border-bottom: 2px solid white;
+}
+
+.message div {
+	padding: 5px 0;
 }
 
 .mail_address {
@@ -365,7 +381,7 @@ h3 {
 }
 .copyright {
 	font-size: .8125rem;
-	padding-top: 20px;
+	padding-top: 40px;
 }
 .copyright span {
 	display: block;
