@@ -149,13 +149,13 @@ a:hover {
 	background: #24292E;
 }
 
-.tumblr {
-	color: #3E5A70;
+.linkedin {
+	color: rgb(47, 119, 176);
 }
 
-.tumblr:hover {
+.linkedin:hover {
 	color: white;
-	background: #3E5A70;
+	background: rgb(47, 119, 176);
 }
 
 .twitter {
